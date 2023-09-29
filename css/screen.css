@@ -1,0 +1,271 @@
+html{
+    font-size: 62.5%; /* root rem */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 1.6rem sans-serif;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../asset/desert.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    max-width: 120rem;
+    height: 7.5rem;
+    margin: auto;
+}
+
+.icon{
+    width: 20rem;
+    float: left;
+    height: 7rem;
+}
+
+.logo{
+    color: #ff7200;
+    font-size: 3.5rem;
+    font-family: Arial;
+    padding-left: 2.rem;
+    float: left;
+    padding-top: 1rem;
+    margin-top: .5rem;
+}
+
+.menu{
+    width: 40rem;
+    float: left;
+    height: 7rem;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 6.2rem;
+    margin-top: 2.7rem;
+    font-size: 1.4rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 33rem;
+    float: left;
+    margin-left: 27rem;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 20rem;
+    height: 4rem;
+    background: transparent;
+    border: .1rem solid #ff7200;
+    margin-top: 1.3rem;
+    color: #fff;
+    border-right: none;
+  
+    float: left;
+    padding: 1rem;
+    border-bottom-left-radius: .5rem;
+    border-top-left-radius: .5rem;
+}
+
+.btn{
+    width: 10rem;
+    height: 4rem;
+    background: #ff7200;
+    border: .2rem solid #ff7200;
+    margin-top: 1.3rem;
+    color: #fff;
+    font-size: 1.5rem;
+    border-bottom-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 120rem;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 2rem;
+    padding-bottom: 2.5rem;
+    font-family: Arial;
+    letter-spacing: .12rem;
+    line-height: 3rem;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 5rem;
+    padding-left: 2rem;
+    margin-top: 9%;
+    letter-spacing: .2rem;
+}
+
+.content .cn{
+    width: 16rem;
+    height: 4rem;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 6.5rem;
+}
+
+.form{
+    width: 25rem;
+    height: 38rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -2rem;
+    left: 87rem;
+    transform: translate(0%,-5%);
+    border-radius: 1rem;
+    padding: 2.5rem;
+}
+
+.form h2{
+    width: 22rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 2.2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: .2rem;
+    padding: .8rem;
+}
+
+form input{
+    width: 24rem;
+    height: 3.5rem;
+    background: transparent;
+    border-bottom: .1rem solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    margin-top: 3rem;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 24rem;
+    height: 4rem;
+    background: #ff7200;
+    border: none;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 3rem;
+    padding-left: 1.4rem;
+    padding-top: .5rem;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
