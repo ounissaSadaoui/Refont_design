@@ -1,5 +1,6 @@
+* lien de déploiment : 
 Après avoir crée un fork du dépôt, on le clone en local:
-
+[lien de deploiment](https://ounissasadaoui.github.io/Refont_design/)
 # On repère et on Corrige les erreurs rencontrées:
 
 ## W3C validator
